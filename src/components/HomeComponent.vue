@@ -1,19 +1,18 @@
 <template>
   <div>
     <HeaderComponent />
-    <!-- <FooterComponent /> -->
-    Home
+    <FooterComponent />
   </div>
 </template>
   
 <script>
 import HeaderComponent from './HeaderComponent.vue';
-// import FooterComponent from './FooterComponent.vue';
+import FooterComponent from './FooterComponent.vue';
 export default {
   name: 'HomeComponent',
   components: {
     HeaderComponent,
-    // FooterComponent
+    FooterComponent
   },
 }
 </script>
