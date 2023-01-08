@@ -120,4 +120,23 @@
   }
   
   
+  #signup{
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    width: 75px;
+    font-size: 13px;
+    margin: 20px;
+    height: 25px;
+    text-transform: unset !important;
+  }
+  #login{
+    background-color: transparent !important; 
+    text-transform: unset !important;
+  }
+  #products,
+  #company-nav {
+    margin: 20px;
+    text-transform: unset !important;
   
+  }
